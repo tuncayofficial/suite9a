@@ -43,6 +43,10 @@ footer {
     position : fixed;
     right: 0;
     bottom: 0;
-    font-size: 14px;
-    color : gray;
+    font-size: 15px;
+    color : black;
+}
+
+h1 {
+    margin-bottom: 0;
 }
