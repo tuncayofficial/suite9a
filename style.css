@@ -35,9 +35,12 @@ button {
     border-radius: 15px;
     font-size: 24px;
     cursor : pointer;
+    transition: 300ms all;
 }
 
-button:active{}
+button:active{
+    transform: scale(0.98);
+}
 
 footer {
     position : fixed;
@@ -49,4 +52,9 @@ footer {
 
 h1 {
     margin-bottom: 0;
+}
+
+a {
+    color : #1303fc;
+    text-decoration: none;
 }
